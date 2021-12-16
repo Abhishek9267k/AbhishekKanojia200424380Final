@@ -15,14 +15,14 @@ class StartActivity : AppCompatActivity() {
         binding = ActivityStartBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-//        binding.btnAddBucketListItem.setOnClickListener {
-//            var addBucketActivity = Intent(this, AddActivity::class.java)
-//            startActivity(addBucketActivity)
-//        }
-//
-//        binding.btnBucketList.setOnClickListener {
-//            var viewBucketActivity = Intent(this, ViewActivity::class.java)
-//            startActivity(viewBucketActivity)
-//        }
+        binding.btnAddBucketListItem.setOnClickListener {
+            var addBucketActivity = Intent(this, AddActivity::class.java)
+            startActivity(addBucketActivity)
+        }
+
+        binding.btnBucketList.setOnClickListener {
+            var viewBucketActivity = Intent(this, ViewActivity::class.java)
+            startActivity(viewBucketActivity)
+        }
     }
 }

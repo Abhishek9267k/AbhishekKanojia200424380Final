@@ -6,41 +6,41 @@
     android:layout_height="match_parent"
     tools:context=".StartActivity">
 
-<!--    <ImageView-->
-<!--        android:id="@+id/bgImg"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent"-->
-<!--        android:contentDescription="@string/backgroundImage"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.0"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        app:layout_constraintVertical_bias="1.0"-->
-<!--        app:srcCompat="@drawable/bali_amazing_island" />-->
+    <ImageView
+        android:id="@+id/bgImg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/backgroundImage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/bali_amazing_island" />
 
-<!--    <Button-->
-<!--        android:id="@+id/btnBucketList"-->
-<!--        android:layout_width="160dp"-->
-<!--        android:layout_height="64dp"-->
-<!--        android:layout_marginEnd="144dp"-->
-<!--        android:text="@string/view_bucket_list"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <Button
+        android:id="@+id/btnBucketList"
+        android:layout_width="160dp"
+        android:layout_height="64dp"
+        android:layout_marginEnd="144dp"
+        android:text="@string/view_bucket_list"
+        app:layout_constraintBottom_toBottomOf="parent"
 
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        app:layout_constraintVertical_bias="0.823" />-->
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.823" />
 
-<!--    <Button-->
-<!--        android:id="@+id/btnAddBucketListItem"-->
-<!--        android:layout_width="163dp"-->
-<!--        android:layout_height="52dp"-->
-<!--        android:layout_marginTop="23dp"-->
-<!--        android:text="@string/add_to_bucket_list"-->
-<!--        app:layout_constraintBottom_toBottomOf="@+id/bgImg"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.431"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/btnBucketList"-->
-<!--        app:layout_constraintVertical_bias="0.139" />-->
+    <Button
+        android:id="@+id/btnAddBucketListItem"
+        android:layout_width="163dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="23dp"
+        android:text="@string/add_to_bucket_list"
+        app:layout_constraintBottom_toBottomOf="@+id/bgImg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.431"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBucketList"
+        app:layout_constraintVertical_bias="0.139" />
 </androidx.constraintlayout.widget.ConstraintLayout>
