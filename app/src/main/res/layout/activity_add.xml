@@ -6,4 +6,57 @@
     android:layout_height="match_parent"
     tools:context=".AddActivity">
 
+    <androidx.constraintlayout.utils.widget.MotionLabel
+        android:id="@+id/lTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="Add New Destination"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtDestName"
+        android:layout_width="@dimen/input_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Destination Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lTitle" />
+
+    <EditText
+        android:id="@+id/txtDestDesc"
+        android:layout_width="@dimen/input_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:minHeight="150dp"
+        android:hint="Enter Description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDestName" />
+
+    <Spinner
+        android:id="@+id/spRanking"
+        android:layout_width="@dimen/input_width"
+        android:layout_height="wrap_content"
+        android:entries="@array/ranking"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDestDesc" />
+
+    <Button
+        android:id="@+id/btnAddDest"
+        android:layout_width="@dimen/input_width"
+        android:layout_height="wrap_content"
+        android:text="Add Destination"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spRanking" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
